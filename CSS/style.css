@@ -83,14 +83,6 @@ html {
     gap: 15px;
     justify-content: space-between;
 
-    @media (max-width:475px) {
-      .cards {
-        padding: 0;
-        align-items: center;
-        justify-content: center;
-      }
-    }
-
     .card {
       --bg-card: #000;
       --light: #d9d9d9;
@@ -187,6 +179,15 @@ html {
       width: 1rem;
     }
   }
+}
+@media (max-width:475px) {
+  .order-naw{
+  .cards {
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+}
 }
 
 .contact-us {
