@@ -84,10 +84,10 @@ html {
     justify-content: space-between;
 
     @media (max-width:475px) {
-      .cards{
+      .cards {
         padding: 0;
-    align-items: center;
-    justify-content: center;
+        align-items: center;
+        justify-content: center;
       }
     }
 
